@@ -1,0 +1,42 @@
+
+body, #header, .quick-actions li a:hover, .btn-primary {
+	background-color: #033060 !important;
+}
+
+.btn-primary:hover{
+	background-color: #0a427d !important;
+}
+
+
+#header h1 {
+    background: url(../img/logo-volpato.png) no-repeat scroll 0 0 transparent !important;
+    background-position: center;
+    background-size: 88% !important;
+    }
+.btn-danger, .btn-success{
+	background-color: red !important;
+	transition: background-color .3s;
+}
+
+.btn-danger:hover{
+	background-color: #cc0a0a !important;
+}
+
+
+#sidebar > ul li ul {
+    background-color: #081b3c;
+}
+
+#sidebar > ul li ul li a:hover, #user-nav > ul > li > a:hover{
+	background-color: #08c;
+}
+
+.select2-results .select2-highlighted {
+    background: #da4f49;
+    color: #fff;
+}
+
+#user-nav > ul > li > a:hover, #user-nav > ul > li.open > a {
+    color: #ffffff;
+    background: #41a9e3;
+}

@@ -1,0 +1,55 @@
+body {
+    background-image: url(../img/bk-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-top: 10%;
+}
+
+
+#header h1 {
+    background: url(../img/logo-volpato.png) no-repeat scroll 0 0 transparent !important;
+    background-position: center;
+    background-size: 100%;
+    }
+
+#loginbox form, #loginbox .normal_text{
+	background-color: transparent;
+}
+
+.form-vertical, .form-actions {
+    border-top: 0px solid #3f4954;
+}
+
+
+
+.pull-left .btn-info{
+	background-color: #f00;
+	padding: 15px 25px;
+	border-radius: 0px;
+}
+
+.pull-left .btn-info:hover{
+	background-color: #bd0808;
+
+}
+
+.pull-right .btn-success{
+	padding: 15px 55px;
+	border-radius: 0px;
+}
+.pull-right .btn-success:hover{}
+
+.span12 img {
+	width: 200px;
+}
+
+
+#loginbox .main_input_box .add-on {
+    padding: 14px 9px;
+}
+
+#loginbox .main_input_box input{
+	height: 40px;
+}
